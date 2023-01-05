@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  min-height: 100vh;
+}
+.heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-style: italic;
+}
+.image {
+  width: 300px;
+  height: 125px;
+}
+.speed-heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 24px;
+}
+.speed-caption {
+  font-family: Roboto;
+  color: #cbd5e1;
+}
+
+.button-acc {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-style: none;
+  font-family: Roboto;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.button-break {
+  background-color: transparent;
+  font-family: Roboto;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #94a3b8;
+  color: #cbd5e1;
+  padding: 8px;
+  margin: 10px;
+}
+.container {
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 600px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .speed-heading {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .speed-caption {
+    font-size: 14px;
+  }
+}
